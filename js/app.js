@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", event => {
-
+    console.log("hellow")
     const app = firebase.app();
     const db  = firebase.firestore();
     const surah = db.collection("al-fatihah");
